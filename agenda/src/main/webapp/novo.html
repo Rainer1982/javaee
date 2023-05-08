@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Contatos</title>
+<link rel="icon" href="imagens/123.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="imagens/agenda.png" alt="Bem vindo a minha agenda">
+	<h1>Criar novo contato</h1>
+	<h5>Rainer Barbosa 2023</h5>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="nome" class="Caixa1" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fone" placeholder="telefone" class="Caixa2" maxlength="15"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="e-mail" class="Caixa1" maxlength="50"></td>
+			</tr>
+		</table>
+		<hr/>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+
+<script src="script/validador.js"></script>
+</body>
+</html>
